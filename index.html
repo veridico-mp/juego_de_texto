@@ -5,23 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" type="text/css">
-    
     <title>My Dungeon</title>
 </head>
 <body>
     <h1>My Dungeon</h1>
     <!--Contenedor del juego-->
-    <div class="container">
+    <div class="container" id="game">
         <!--Cuadro menú-->
         <div class="menu">
-            <button type="button">START</button><br>
+            <button type="button" id="start-Btn">START</button><br>
             <button type="button">CONTINUE</button><br>
             <button type="button">HELP</button><br>
             <button type="button">ABOUT</button><br>
             <button type="button">EXIT</button><br>
         </div>
         <!--Pantalla que muestra el texto del juego-->
-        <div class="screen">
+        <div class="screen" id="screen">
 
         </div>
         <!--Contenedor de estadisticas-->
@@ -34,7 +33,7 @@
         </div>
         <!--Ingreso de comandos de texto-->
         <div class="input-text">
-            <input type="text" placeholder="Ingresa tu acción aquí.">
+            <input type="text" placeholder="Ingresa tu acción aquí."></input>
         </div>
         <!--Guía de comandos-->
         <div class="help">
@@ -45,6 +44,6 @@
 
 
 
-<script src="script.js"></script>    
+    <script src="script.js"></script>
 </body>
 </html>
